@@ -37,34 +37,6 @@
 			remoteGlobalIDString = 17BF33B22AEE5253002383B6;
 			remoteInfo = MyListOfProductsCleanArchitecture;
 		};
-		17BF34022AEE5672002383B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17BF33FD2AEE5672002383B6 /* Domain.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1725591A2AED1D6300CBA7BE;
-			remoteInfo = Domain;
-		};
-		17BF34042AEE5672002383B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17BF33FD2AEE5672002383B6 /* Domain.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 172559242AED1D6300CBA7BE;
-			remoteInfo = DomainTests;
-		};
-		17BF340B2AEE568D002383B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17BF34062AEE568D002383B6 /* Networking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1781223B2AEC3B8E00428C14;
-			remoteInfo = Networking;
-		};
-		17BF340D2AEE568D002383B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17BF34062AEE568D002383B6 /* Networking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 178122452AEC3B8E00428C14;
-			remoteInfo = NetworkingTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -82,8 +54,6 @@
 		17BF33D62AEE5254002383B6 /* MyListOfProductsCleanArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyListOfProductsCleanArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BF33DA2AEE5254002383B6 /* MyListOfProductsCleanArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListOfProductsCleanArchitectureUITests.swift; sourceTree = "<group>"; };
 		17BF33DC2AEE5254002383B6 /* MyListOfProductsCleanArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListOfProductsCleanArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		17BF33FD2AEE5672002383B6 /* Domain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Domain.xcodeproj; path = ../../../../../../../Modules/Domain/Domain.xcodeproj; sourceTree = "<group>"; };
-		17BF34062AEE568D002383B6 /* Networking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Networking.xcodeproj; path = ../../../../../../../Modules/Networking/Networking.xcodeproj; sourceTree = "<group>"; };
 		21CF5980DA753550EBE7C0C8 /* Pods-MyListOfProductsCleanArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyListOfProductsCleanArchitecture.release.xcconfig"; path = "Target Support Files/Pods-MyListOfProductsCleanArchitecture/Pods-MyListOfProductsCleanArchitecture.release.xcconfig"; sourceTree = "<group>"; };
 		4EF6907887CF3465B97FA637 /* Pods-MyListOfProductsCleanArchitectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyListOfProductsCleanArchitectureTests.debug.xcconfig"; path = "Target Support Files/Pods-MyListOfProductsCleanArchitectureTests/Pods-MyListOfProductsCleanArchitectureTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E5FC71602EC7ED9B0B844BE /* Pods-MyListOfProductsCleanArchitectureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyListOfProductsCleanArchitectureUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyListOfProductsCleanArchitectureUITests/Pods-MyListOfProductsCleanArchitectureUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,7 +118,6 @@
 		17BF33B52AEE5253002383B6 /* MyListOfProductsCleanArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				17BF33FC2AEE565B002383B6 /* Dependencies */,
 				17BF33B62AEE5253002383B6 /* AppDelegate.swift */,
 				17BF33B82AEE5253002383B6 /* SceneDelegate.swift */,
 				17BF33BA2AEE5253002383B6 /* ViewController.swift */,
@@ -178,33 +147,6 @@
 			path = MyListOfProductsCleanArchitectureUITests;
 			sourceTree = "<group>";
 		};
-		17BF33FC2AEE565B002383B6 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				17BF33FD2AEE5672002383B6 /* Domain.xcodeproj */,
-				17BF34062AEE568D002383B6 /* Networking.xcodeproj */,
-			);
-			path = Dependencies;
-			sourceTree = "<group>";
-		};
-		17BF33FE2AEE5672002383B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				17BF34032AEE5672002383B6 /* Domain.framework */,
-				17BF34052AEE5672002383B6 /* DomainTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		17BF34072AEE568D002383B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				17BF340C2AEE568D002383B6 /* Networking.framework */,
-				17BF340E2AEE568D002383B6 /* NetworkingTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		9A47A7A6073013442ACA908A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,7 +157,6 @@
 				5E5FC71602EC7ED9B0B844BE /* Pods-MyListOfProductsCleanArchitectureUITests.debug.xcconfig */,
 				CD7C7F664A35F13864307F6E /* Pods-MyListOfProductsCleanArchitectureUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -323,16 +264,6 @@
 			mainGroup = 17BF33AA2AEE5253002383B6;
 			productRefGroup = 17BF33B42AEE5253002383B6 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 17BF33FE2AEE5672002383B6 /* Products */;
-					ProjectRef = 17BF33FD2AEE5672002383B6 /* Domain.xcodeproj */;
-				},
-				{
-					ProductGroup = 17BF34072AEE568D002383B6 /* Products */;
-					ProjectRef = 17BF34062AEE568D002383B6 /* Networking.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				17BF33B22AEE5253002383B6 /* MyListOfProductsCleanArchitecture */,
@@ -341,37 +272,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		17BF34032AEE5672002383B6 /* Domain.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Domain.framework;
-			remoteRef = 17BF34022AEE5672002383B6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		17BF34052AEE5672002383B6 /* DomainTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = DomainTests.xctest;
-			remoteRef = 17BF34042AEE5672002383B6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		17BF340C2AEE568D002383B6 /* Networking.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Networking.framework;
-			remoteRef = 17BF340B2AEE568D002383B6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		17BF340E2AEE568D002383B6 /* NetworkingTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NetworkingTests.xctest;
-			remoteRef = 17BF340D2AEE568D002383B6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		17BF33B12AEE5253002383B6 /* Resources */ = {
