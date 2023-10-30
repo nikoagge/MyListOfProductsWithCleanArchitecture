@@ -1,0 +1,6 @@
+module Pods_MyListOfProductsCleanArchitectureTests {
+  umbrella header "Pods-MyListOfProductsCleanArchitectureTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
