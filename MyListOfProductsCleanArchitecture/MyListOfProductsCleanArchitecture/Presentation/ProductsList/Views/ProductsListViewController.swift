@@ -47,12 +47,6 @@ class ProductsListViewController: UIViewController {
         navigationItem.largeTitleDisplayMode = .always
         navigationItem.title = NSLocalizedString("ProductsList", comment: "")
         navigationController?.navigationBar.backItem?.title = nil
-        
-        // set up search bar
-        searchController.searchBar.placeholder = NSLocalizedString("SearchPlaceholder", comment: "")
-        searchController.dimsBackgroundDuringPresentation = false
-        navigationItem.searchController = searchController
-        navigationItem.hidesSearchBarWhenScrolling = false
     }
     
     private func setupObservers() {
@@ -65,16 +59,6 @@ class ProductsListViewController: UIViewController {
             .bind(to: productsListTableView.rx.items(cellIdentifier: ConstantIdentifiers.productsListTableViewCell, cellType: ProductsListTableViewCell.self)) { (row, item, cell) in
                 cell.setupCell(product: item, delegate: self)
             }.disposed(by: disposeBag)
-        
-        // set up search bar observer
-        /// #sos debounce for 0.5 seconds to avoid unnecessary request while typing
-        searchController.searchBar.rx.text
-            .orEmpty
-            .debounce(.microseconds(500), scheduler: MainScheduler.instance)
-            .distinctUntilChanged()
-            .subscribe(onNext:{ [weak self] query in
-                self?.viewModel.onTriggeredEvent(event: .queryProductsList(query: query))
-            }).disposed(by: disposeBag)
     }
     
     private func setupTableView() {

@@ -36,5 +36,4 @@ enum ProductsListEvents {
     case refreshProductsList
     case goToProductDetails(product: Product)
     case presentFeedbackInfoMessage(feedbackInfoMessage: FeedbackInfoMessage)
-    case queryProductsList(query: String)
 }

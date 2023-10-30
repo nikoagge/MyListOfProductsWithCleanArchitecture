@@ -11,8 +11,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductDetailsViewController" customModule="MyListOfProductsCleanArchitecture" customModuleProvider="target">
             <connections>
                 <outlet property="headerImageView" destination="R1y-rh-avq" id="klq-qq-QqM"/>
+                <outlet property="headerViewHeightConstraint" destination="bDr-Nc-Au0" id="0Ad-ev-dPS"/>
                 <outlet property="productDescriptionLabel" destination="Ng8-nw-PBJ" id="5wF-HK-CP8"/>
-                <outlet property="scrollView" destination="GSv-My-ZlJ" id="pVI-97-NYn"/>
+                <outlet property="scrollView" destination="GSv-My-ZlJ" id="yY0-th-Eyj"/>
+                <outlet property="view" destination="Lxo-gm-Dfh" id="7jd-Cc-kOc"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -67,6 +69,9 @@
                         <constraint firstAttribute="trailing" secondItem="ldJ-Cx-Iz9" secondAttribute="trailing" id="V99-Nh-Afp"/>
                         <constraint firstAttribute="bottom" secondItem="ldJ-Cx-Iz9" secondAttribute="bottom" id="aav-5d-l2x"/>
                     </constraints>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="skW-sV-oT9"/>
+                    </connections>
                 </scrollView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="VOQ-2r-FLL"/>

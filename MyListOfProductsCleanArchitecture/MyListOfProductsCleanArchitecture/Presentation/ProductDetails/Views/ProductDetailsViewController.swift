@@ -72,7 +72,7 @@ class ProductDetailsViewController: UIViewController {
             .observe(on: MainScheduler.instance)
             .subscribe(onNext: { [weak self] state in
                 self?.navigationItem.title = state.selectedProduct.name
-                self?.productDescriptionLabel.text = state.selectedProduct.description
+                self?.productDescriptionLabel.text = (state.selectedProduct.description ?? "") + "      " + (state.selectedProduct.price ?? "")
                 guard let imageId = state.selectedProduct.image else { return }
                 self?.imageCacheManager.fetchImage(
                     for: imageId,

@@ -37,8 +37,6 @@ class ProductsListViewModel: ProductActionDispatcher {
             
         case .presentFeedbackInfoMessage(let feedbackInfoMessage):
             productActionHandler.handleAction(action: .PRESENT_FEEDBACK_INFO_MESSAGE(feedbackInfoMessage: feedbackInfoMessage))
-        case .queryProductsList(query: let query):
-            break
         }
     }
     

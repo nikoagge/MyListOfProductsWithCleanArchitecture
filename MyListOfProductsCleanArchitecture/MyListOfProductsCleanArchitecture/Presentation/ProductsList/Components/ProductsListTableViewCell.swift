@@ -38,7 +38,7 @@ class ProductsListTableViewCell: UITableViewCell {
         self.delegate = delegate
                 
         titleLabel.text = product.name
-        descriptionLabel.text = product.description
+        descriptionLabel.text = product.price
         contentView.addTapGestureRecognizer {
             delegate.didSelect(product: product)
         }
