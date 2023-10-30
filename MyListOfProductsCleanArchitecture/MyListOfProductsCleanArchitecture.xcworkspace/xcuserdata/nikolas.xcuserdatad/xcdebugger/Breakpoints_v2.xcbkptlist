@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0A3FB3F0-41BC-43BD-A158-C4E52ED32390"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5451BB4-4240-492E-A0CE-49F82EA4C9BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Alamofire/Source/ParameterEncoding.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
+            landmarkName = "encode(_:with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5451BB4-4240-492E-A0CE-49F82EA4C9BC - c816b02b7ae48033"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.JSONEncoding.encode(_: Alamofire.URLRequestConvertible, with: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) throws -&gt; Foundation.URLRequest"
+                  moduleName = "Alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/ParameterEncoding.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "D5451BB4-4240-492E-A0CE-49F82EA4C9BC - 506a4f9fd5451b98"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.JSONEncoding.encode(_: Alamofire.URLRequestConvertible, with: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) throws -&gt; Foundation.URLRequest"
+                  moduleName = "Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/ParameterEncoding.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "D5451BB4-4240-492E-A0CE-49F82EA4C9BC - c816b02b7ae48033"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.JSONEncoding.encode(_: Alamofire.URLRequestConvertible, with: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) throws -&gt; Foundation.URLRequest"
+                  moduleName = "Alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/ParameterEncoding.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "1288">
+               </Location>
+               <Location
+                  uuid = "D5451BB4-4240-492E-A0CE-49F82EA4C9BC - 506a4f9fd5451b98"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.JSONEncoding.encode(_: Alamofire.URLRequestConvertible, with: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) throws -&gt; Foundation.URLRequest"
+                  moduleName = "Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/ParameterEncoding.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "1288">
+               </Location>
+               <Location
+                  uuid = "D5451BB4-4240-492E-A0CE-49F82EA4C9BC - c816b02b7ae48033"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.JSONEncoding.encode(_: Alamofire.URLRequestConvertible, with: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) throws -&gt; Foundation.URLRequest"
+                  moduleName = "Alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/ParameterEncoding.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "1289">
+               </Location>
+               <Location
+                  uuid = "D5451BB4-4240-492E-A0CE-49F82EA4C9BC - 506a4f9fd5451b98"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.JSONEncoding.encode(_: Alamofire.URLRequestConvertible, with: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) throws -&gt; Foundation.URLRequest"
+                  moduleName = "Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/ParameterEncoding.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "1289">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95103B6F-531C-4348-90FF-7AC7DC137DC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Alamofire/Source/ParameterEncoding.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "encode(_:with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95103B6F-531C-4348-90FF-7AC7DC137DC2 - c816b02b7ae481d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.JSONEncoding.encode(_: Alamofire.URLRequestConvertible, with: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) throws -&gt; Foundation.URLRequest"
+                  moduleName = "Alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/ParameterEncoding.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "282"
+                  endingLineNumber = "282"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "95103B6F-531C-4348-90FF-7AC7DC137DC2 - 506a4f9fd5451a7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.JSONEncoding.encode(_: Alamofire.URLRequestConvertible, with: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) throws -&gt; Foundation.URLRequest"
+                  moduleName = "Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/ParameterEncoding.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "282"
+                  endingLineNumber = "282"
+                  offsetFromSymbolStart = "516">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC4C76A6-F1D0-452A-8F04-B630581F8CD8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Alamofire/Source/URLRequest+Alamofire.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "validate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC4C76A6-F1D0-452A-8F04-B630581F8CD8 - 9b1f3ef6fdfd27f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foundation.URLRequest.validate() throws -&gt; ()"
+                  moduleName = "Alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/URLRequest+Alamofire.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "BC4C76A6-F1D0-452A-8F04-B630581F8CD8 - 9b1f3ef6fdfd27f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foundation.URLRequest.validate() throws -&gt; ()"
+                  moduleName = "Alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/URLRequest+Alamofire.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "652">
+               </Location>
+               <Location
+                  uuid = "BC4C76A6-F1D0-452A-8F04-B630581F8CD8 - 363c142525cbc5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foundation.URLRequest.validate() throws -&gt; ()"
+                  moduleName = "Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/URLRequest+Alamofire.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "BC4C76A6-F1D0-452A-8F04-B630581F8CD8 - 363c142525cbc5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foundation.URLRequest.validate() throws -&gt; ()"
+                  moduleName = "Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/URLRequest+Alamofire.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "652">
+               </Location>
+               <Location
+                  uuid = "BC4C76A6-F1D0-452A-8F04-B630581F8CD8 - 9b1f3ef6fdfd27f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foundation.URLRequest.validate() throws -&gt; ()"
+                  moduleName = "Alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/URLRequest+Alamofire.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "BC4C76A6-F1D0-452A-8F04-B630581F8CD8 - 9b1f3ef6fdfd27f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foundation.URLRequest.validate() throws -&gt; ()"
+                  moduleName = "Alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/URLRequest+Alamofire.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "741">
+               </Location>
+               <Location
+                  uuid = "BC4C76A6-F1D0-452A-8F04-B630581F8CD8 - 363c142525cbc5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foundation.URLRequest.validate() throws -&gt; ()"
+                  moduleName = "Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/URLRequest+Alamofire.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "BC4C76A6-F1D0-452A-8F04-B630581F8CD8 - 363c142525cbc5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foundation.URLRequest.validate() throws -&gt; ()"
+                  moduleName = "Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/URLRequest+Alamofire.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "741">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A87B03FD-81A5-4C99-BCE3-9301CFA0BD00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Alamofire/Source/Session.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1096"
+            endingLineNumber = "1096"
+            landmarkName = "didCreateURLRequest(_:for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A87B03FD-81A5-4C99-BCE3-9301CFA0BD00 - fb0bcc54a8ec80cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.Session.didCreateURLRequest(_: Foundation.URLRequest, for: Alamofire.Request) -&gt; ()"
+                  moduleName = "Alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/Session.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1096"
+                  endingLineNumber = "1096"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "A87B03FD-81A5-4C99-BCE3-9301CFA0BD00 - 637733e0074d1b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.Session.didCreateURLRequest(_: Foundation.URLRequest, for: Alamofire.Request) -&gt; ()"
+                  moduleName = "Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/Session.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1096"
+                  endingLineNumber = "1096"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "A87B03FD-81A5-4C99-BCE3-9301CFA0BD00 - fb0bcc54a8ec80cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.Session.didCreateURLRequest(_: Foundation.URLRequest, for: Alamofire.Request) -&gt; ()"
+                  moduleName = "Alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/Session.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1096"
+                  endingLineNumber = "1096"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "A87B03FD-81A5-4C99-BCE3-9301CFA0BD00 - 637733e0074d1b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.Session.didCreateURLRequest(_: Foundation.URLRequest, for: Alamofire.Request) -&gt; ()"
+                  moduleName = "Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/Session.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1096"
+                  endingLineNumber = "1096"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "A87B03FD-81A5-4C99-BCE3-9301CFA0BD00 - fb0bcc54a8ec80cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.Session.didCreateURLRequest(_: Foundation.URLRequest, for: Alamofire.Request) -&gt; ()"
+                  moduleName = "Alamofire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/Session.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1096"
+                  endingLineNumber = "1096"
+                  offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  uuid = "A87B03FD-81A5-4C99-BCE3-9301CFA0BD00 - 637733e0074d1b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alamofire.Session.didCreateURLRequest(_: Foundation.URLRequest, for: Alamofire.Request) -&gt; ()"
+                  moduleName = "Networking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolas/Desktop/Programming/Personal%20Projects/Viva/MyListOfProductsCleanArchitecture/MyListOfProductsCleanArchitecture/Pods/Alamofire/Source/Session.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1096"
+                  endingLineNumber = "1096"
+                  offsetFromSymbolStart = "512">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
